@@ -1,0 +1,6 @@
+{
+  "name": "PANDAI PANGAN — Prediksi & Aksi Dini Inflasi Pangan",
+  "description": "Sistem pendukung keputusan berbasis AI untuk peringatan dini inflasi pangan Indonesia bagi analis Bank Indonesia dan TPIP-TPID.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,360 @@
+{
+  "metadata": {
+    "dokumen": "PANDAI PANGAN – Dokumen Data Pendukung Simulasi",
+    "dikumpulkan_sampai": "2026-11-19",
+    "aturan_penting": "Setiap data di sistem wajib diberi label NYATA (dengan sumber) atau SIMULASI. Output model prediksi pada prototipe adalah simulasi, bukan hasil model terlatih."
+  },
+  "inflasi_nasional_2026": {
+    "status": "NYATA",
+    "sumber": "Siaran Pers BI No.28/238/DKom (2 November 2026) dan rilis BPS; angka Agustus dari pemberitaan",
+    "sasaran_inflasi": "2,5% ± 1%",
+    "ihk_okt_2025_yoy": 2.86,
+    "inti_jul_2026_yoy": 2.76,
+    "andil_volatile_food_okt_2026_pp": 0.13,
+    "catatan": "Pada Oktober 2026, volatile food memberi andil 0,13 poin persentase terhadap inflasi bulanan, terutama dari cabai merah dan cabai rawit akibat turunnya produksi di sejumlah sentra. BI memprakirakan tekanan inflasi berpotensi meningkat pada November 2026 dan Februari 2027.",
+    "seri": [
+      {
+        "indikator": "Inflasi IHK (yoy)",
+        "agu_2026": 3.19,
+        "sep_2026": 3.28,
+        "okt_2026": 3.23,
+        "satuan": "%"
+      },
+      {
+        "indikator": "Inflasi IHK (mtm)",
+        "agu_2026": null,
+        "sep_2026": 0.30,
+        "okt_2026": 0.22,
+        "satuan": "%"
+      },
+      {
+        "indikator": "Inflasi Inti (yoy)",
+        "agu_2026": 2.92,
+        "sep_2026": 2.84,
+        "okt_2026": 2.56,
+        "satuan": "%"
+      },
+      {
+        "indikator": "Volatile Food (yoy)",
+        "agu_2026": 4.06,
+        "sep_2026": 5.03,
+        "okt_2026": 5.81,
+        "satuan": "%"
+      },
+      {
+        "indikator": "Volatile Food (mtm)",
+        "agu_2026": 0.88,
+        "sep_2026": 1.46,
+        "okt_2026": 0.77,
+        "satuan": "%"
+      },
+      {
+        "indikator": "Administered Prices (yoy)",
+        "agu_2026": null,
+        "sep_2026": 3.25,
+        "okt_2026": 3.24,
+        "satuan": "%"
+      }
+    ],
+    "pmi_manufaktur": {
+      "sep_2026": 52.4,
+      "okt_2026": 54.0,
+      "status": "NYATA",
+      "sumber": "Indikator ekonomi REI nasional (Okt 2026)"
+    }
+  },
+  "harga_pangan_nyata": {
+    "status": "NYATA",
+    "catatan_metodologi": "Seri harga berasal dari beberapa lembaga dengan definisi dan cakupan berbeda. Perlakukan sebagai seri terpisah, jangan digabung tanpa penyesuaian.",
+    "hap_mendag": {
+      "rawit": 57000,
+      "cabai_merah": 55000,
+      "sumber": "Pernyataan Mendag (Katadata, 15 Okt 2026)",
+      "catatan_verifikasi": "Artikel sumber menulis angka 55.000 pada kalimat yang ambigu; perlu verifikasi ke Permendag/Bapanas."
+    },
+    "seri_lembaga": [
+      {
+        "id": "pihps-1-okt",
+        "tanggal": "2026-10-01",
+        "tanggal_label": "1 Okt 2026",
+        "sumber": "PIHPS Nasional (BI)",
+        "rawit_merah": 101550,
+        "cabai_merah_besar": 59400,
+        "cabai_merah_keriting": 71450,
+        "rawit_hijau": 70650,
+        "telur_ayam_ras": 29150,
+        "anomali": false
+      },
+      {
+        "id": "sp2kp-1-okt",
+        "tanggal": "2026-10-01",
+        "tanggal_label": "1 Okt 2026",
+        "sumber": "SP2KP Kemendag",
+        "rawit_merah": 80420,
+        "daging_sapi_paha_belakang": 143983,
+        "anomali": false
+      },
+      {
+        "id": "pihps-6-okt",
+        "tanggal": "2026-10-06",
+        "tanggal_label": "6 Okt 2026",
+        "sumber": "PIHPS (pemberitaan)",
+        "rawit_merah": 114000,
+        "cabai_merah_besar": 81000,
+        "cabai_merah_keriting": 82500,
+        "rawit_hijau": 84500,
+        "telur_ayam_ras": 31550,
+        "anomali": true,
+        "catatan_anomali": "Angka PIHPS 6 Oktober jauh lebih tinggi daripada 1 dan 8 Oktober. Sistem menandainya sebagai anomali atau perbedaan cakupan, bukan langsung menganggapnya lonjakan nyata."
+      },
+      {
+        "id": "pihps-8-okt",
+        "tanggal": "2026-10-08",
+        "tanggal_label": "8 Okt 2026",
+        "sumber": "PIHPS (pemberitaan)",
+        "rawit_merah": 102250,
+        "cabai_merah_besar": 63250,
+        "rawit_hijau": 67550,
+        "anomali": false
+      },
+      {
+        "id": "bapanas-w1-okt",
+        "tanggal": "2026-10-07",
+        "tanggal_label": "Pekan 1 Okt 2026",
+        "sumber": "Bapanas",
+        "rawit_merah": 93566,
+        "catatan": "Naik 5,28% dari akhir September",
+        "anomali": false
+      },
+      {
+        "id": "bapanas-14-okt",
+        "tanggal": "2026-10-14",
+        "tanggal_label": "14 Okt 2026",
+        "sumber": "Bapanas",
+        "rawit_merah": 93629,
+        "catatan": "Rawit konsumen",
+        "anomali": false
+      },
+      {
+        "id": "kemendag-awal-okt",
+        "tanggal": "2026-10-05",
+        "tanggal_label": "Awal Okt 2026",
+        "sumber": "Kemendag (rata-rata nasional)",
+        "rawit_merah": 86846,
+        "rawit_merah_sep": 78802,
+        "cabai_merah": 63913,
+        "cabai_merah_sep": 57383,
+        "anomali": false
+      },
+      {
+        "id": "pemberitaan-w4-okt",
+        "tanggal": "2026-10-25",
+        "tanggal_label": "Pekan 4 Okt 2026",
+        "sumber": "Pemberitaan",
+        "rawit_merah": 88642,
+        "cabai_merah": 70849,
+        "anomali": false
+      }
+    ],
+    "turunan_hitungan": [
+      { "indikator": "Kenaikan rata-rata nasional cabai merah Sep→awal Okt", "nilai": "+11,4%" },
+      { "indikator": "Kenaikan rata-rata nasional rawit Sep→awal Okt", "nilai": "+10,2%" },
+      { "indikator": "Rawit awal Okt di atas HAP", "nilai": "+52,4%" },
+      { "indikator": "Cabai merah awal Okt di atas HAP", "nilai": "+16,2%" }
+    ],
+    "peristiwa_agustus": {
+      "tanggal": "2026-08-12",
+      "sumber": "Pemberitaan Bisnis (12 Agustus 2026)",
+      "ringkasan": "Lonjakan harga cabai hingga 103% dan kenaikan rawit hijau 25,12% menjadi Rp65.000/kg saat musim kemarau menguat."
+    }
+  },
+  "produksi_padi_beras_bps": {
+    "status": "NYATA",
+    "sumber": "BPS (Kerangka Sampel Area / rilis resmi, dikutip CNBC Indonesia & Bina Jurnal)",
+    "konsumsi_beras_2025_juta_ton": 30.81,
+    "surplus_2025_juta_ton": 3.88,
+    "pangsa_jawa_luas_panen_2024_pct": 54.18,
+    "tahunan": [
+      {
+        "tahun": 2023,
+        "luas_panen_juta_ha": 10.21,
+        "produksi_gkg_juta_ton": 53.98,
+        "produksi_beras_juta_ton": null,
+        "catatan": "Tahun El Niño dan IOD positif 2023."
+      },
+      {
+        "tahun": 2024,
+        "luas_panen_juta_ha": 10.05,
+        "produksi_gkg_juta_ton": 53.14,
+        "produksi_beras_juta_ton": 30.6,
+        "catatan": "Turunan hitungan dari kenaikan 4,07 juta ton ke 34,69 juta ton; GKG & luas panen turun ~1,6% pasca El Niño 2023."
+      },
+      {
+        "tahun": 2025,
+        "luas_panen_juta_ha": 11.36,
+        "produksi_gkg_juta_ton": 60.21,
+        "produksi_beras_juta_ton": 34.69,
+        "catatan": "Rilis terakhir 34,69 juta ton (+13,29% dari 2024); luas panen naik ~13%."
+      }
+    ],
+    "riwayat_revisi_2025": [
+      { "versi": "Rilis 1", "produksi_beras_juta_ton": 34.77, "keterangan": "Angka sementara awal" },
+      { "versi": "Rilis 2", "produksi_beras_juta_ton": 34.79, "keterangan": "Penyesuaian KSA triwulanan" },
+      { "versi": "Rilis 3", "produksi_beras_juta_ton": 34.71, "keterangan": "Pemutakhiran angka tetap" },
+      { "versi": "Rilis Terakhir", "produksi_beras_juta_ton": 34.69, "keterangan": "Angka acuan final pada dokumen pendukung" }
+    ],
+    "pola_musiman_2025": [
+      { "bulan": "Februari", "luas_panen_juta_ha": 0.76, "luas_panen_2024_juta_ha": 0.46, "produksi_gkg_juta_ton": null, "produksi_beras_juta_ton": null },
+      { "bulan": "Juni", "luas_panen_juta_ha": 0.79, "produksi_gkg_juta_ton": 3.96, "produksi_beras_juta_ton": 2.28 },
+      { "bulan": "September", "luas_panen_juta_ha": 1.13, "produksi_gkg_juta_ton": 5.95, "produksi_beras_juta_ton": null },
+      { "bulan": "Desember", "luas_panen_juta_ha": 0.44, "produksi_gkg_juta_ton": null, "produksi_beras_juta_ton": 1.41 }
+    ],
+    "produsen_beras_2025": [
+      { "provinsi": "Jawa Timur", "provinsi_kode": "35", "produksi_juta_ton": 6.0, "keterangan": "Produsen beras terbesar nasional" },
+      { "provinsi": "Sumatera Selatan", "provinsi_kode": "16", "produksi_juta_ton": 2.04, "keterangan": "Produsen terbesar di Sumatera" },
+      { "provinsi": "Lampung", "provinsi_kode": "18", "produksi_juta_ton": 1.82, "keterangan": "Penyangga utama Sumatera-Jawa" },
+      { "provinsi": "Banten", "provinsi_kode": "36", "produksi_juta_ton": 1.01, "keterangan": "Penyangga kawasan barat Jawa" }
+    ]
+  },
+  "iklim_dan_kebijakan": [
+    {
+      "peristiwa": "El Niño dan IOD positif 2023",
+      "keterangan": "Kekeringan berkepanjangan mengganggu pertanian",
+      "sumber": "BMKG (2024), dikutip di esai",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "Volatile food Feb 2024",
+      "keterangan": "8,47% (yoy), didorong beras, cabai merah, telur ayam ras",
+      "sumber": "Bank Indonesia (2024), dikutip di esai",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "Kemarau 2026",
+      "keterangan": "BMKG: lebih kering dan lebih panjang dari normal; puncak Juli–September; Agustus terluas (369 Zona Musim, sekitar 48,84% daratan)",
+      "sumber": "Pemberitaan Bisnis, 12 Agu 2026",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "El Niño 2026",
+      "keterangan": "Kategori kuat, berpotensi sangat kuat (peluang hingga 75%), diperkirakan bertahan hingga awal 2027",
+      "sumber": "BMKG via pemberitaan",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "GPIPS",
+      "keterangan": "Gerakan Pengendalian Inflasi dan Pangan Sejahtera diluncurkan 13 Mei 2026; strategi 4K",
+      "sumber": "BI (2026b), dikutip di esai",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "Sentra cabai",
+      "keterangan": "Produksi cabai nasional Okt 2026 diperkirakan melampaui konsumsi, ditopang 26 kabupaten sentra di Jawa, Sumatera, Sulawesi; harga tetap tinggi",
+      "sumber": "Kementan via pemberitaan",
+      "status": "NYATA"
+    },
+    {
+      "peristiwa": "Stok pangan",
+      "keterangan": "Posisi stok pemerintah lebih kuat dibanding puncak El Niño 2023",
+      "sumber": "Pemberitaan Bisnis, 12 Agu 2026",
+      "status": "NYATA"
+    }
+  ],
+  "backtest_sep_okt_2026": {
+    "kondisi_masukan_1_okt": {
+      "el_nino": "El Niño kategori kuat; puncak kemarau Juli–September (BMKG)",
+      "volatile_food_sep_mtm": 1.46,
+      "volatile_food_sep_yoy": 5.03,
+      "cabai_merah_sep": 57383,
+      "cabai_rawit_sep": 78802
+    },
+    "realisasi_okt": {
+      "cabai_merah_okt": 63913,
+      "cabai_merah_kenaikan_pct": 11.4,
+      "cabai_rawit_okt": 86846,
+      "cabai_rawit_kenaikan_pct": 10.2,
+      "volatile_food_okt_mtm": 0.77,
+      "volatile_food_okt_yoy": 5.81,
+      "pendorong_utama": "Cabai merah dan cabai rawit"
+    },
+    "analog_historis_2023_2024": {
+      "pemicu": "El Niño dan IOD positif 2023",
+      "dampak_padi_2024_pct": -1.6,
+      "volatile_food_feb_2024_yoy": 8.47
+    }
+  },
+  "siaga_ekonomi_2026": {
+    "status": "NYATA",
+    "sumber": "Esai SIAGA Gen-School 2026 (BI, BPS, ANTARA, Bisnis.com, Metrotvnews, NIST)",
+    "makro_nasional": {
+      "pdb_tw3_2026_yoy": 5.47,
+      "pdb_tw3_2025_yoy": 5.04,
+      "bi_rate_okt_2026_pct": 5.75,
+      "kurs_rupiah_29_okt_2026": 18128,
+      "jeda_rilis_pdb_hari": 36,
+      "adopsi_ai_perbankan_tw1_2026_pct": 57.9
+    },
+    "pdrb_tw3_2026_daerah": [
+      { "wilayah": "Maluku Utara", "provinsi_kode": "82", "pertumbuhan_yoy": 16.0, "label": ">16%" },
+      { "wilayah": "Nusa Tenggara Barat", "provinsi_kode": "52", "pertumbuhan_yoy": 7.39, "label": "7,39%" },
+      { "wilayah": "Jawa Barat", "provinsi_kode": "32", "pertumbuhan_yoy": 5.89, "label": "5,89%" },
+      { "wilayah": "DKI Jakarta", "provinsi_kode": "31", "pertumbuhan_yoy": 5.87, "label": "5,87%" },
+      { "wilayah": "Nasional (Indonesia)", "provinsi_kode": "00", "pertumbuhan_yoy": 5.47, "label": "5,47%" },
+      { "wilayah": "Papua Barat", "provinsi_kode": "92", "pertumbuhan_yoy": 3.16, "label": "3,16%" }
+    ],
+    "qris_sem1_2026": {
+      "pengguna_juta": 65.77,
+      "merchant_juta": 44.86,
+      "pangsa_umkm_pct": 96.68,
+      "volume_transaksi_miliar": 12.55,
+      "pertumbuhan_volume_pct": 100.12
+    },
+    "rupiah_digital": {
+      "status_kesiapan": "PoC Proyek Garuda tahap wholesale tuntas Des 2024; pengembangan Wholesale Securities Ledger TW II 2026; siap integrasi sinyal agregat tanpa merombak arsitektur."
+    },
+    "tabel_koreksi_sinyal": [
+      {
+        "sinyal": "Cahaya malam (VIIRS)",
+        "direkam": "Intensitas aktivitas fisik; berkala dan terbuka",
+        "bias": "Awan/cuaca, lampu jalan, kawasan industri; lemah untuk jasa digital",
+        "koreksi": "Komposit bebas awan, normalisasi per wilayah, kontrol infrastruktur"
+      },
+      {
+        "sinyal": "QRIS (agregat, anonim)",
+        "direkam": "Transaksi nyaris waktu nyata di 44,86 juta merchant",
+        "bias": "Didominasi adopsi: volume +100,12% jauh melampaui PDB; perubahan kebijakan (MDR 0%)",
+        "koreksi": "Normalisasi per merchant aktif dan penduduk; variabel kebijakan; kalibrasi dengan PDRB"
+      },
+      {
+        "sinyal": "Data UMKM",
+        "direkam": "Konteks usaha mikro-kecil (96,68% merchant QRIS)",
+        "bias": "Cakupan tidak merata; pembaruan lambat",
+        "koreksi": "Konteks dan pembobot, bukan prediktor tunggal"
+      },
+      {
+        "sinyal": "Indikator resmi (PDRB, IHK, harga pangan)",
+        "direkam": "Jangkar kebenaran statistik",
+        "bias": "Triwulanan dan terlambat (jeda rilis PDB 36 hari)",
+        "koreksi": "Target pelatihan dan validasi"
+      }
+    ],
+    "peta_jalan": [
+      { "tahap": "1. Prototipe & backtesting", "waktu": "2027", "keluaran": "Data terbuka (VIIRS, BPS, harga pangan) dan simulasi QRIS; REI dan REDD versi awal." },
+      { "tahap": "2. Uji coba terbatas", "waktu": "2028", "keluaran": "Tiga tipologi wilayah (perkotaan/perdagangan, pertanian/UMKM, industri/jasa); perbandingan benchmark." },
+      { "tahap": "3. Kolaborasi data", "waktu": "2028–2029", "keluaran": "Perjanjian data agregat-anonim; uji privasi UU PDP dan tata kelola NIST AI RMF." },
+      { "tahap": "4. Operasionalisasi", "waktu": "2029+", "keluaran": "Integrasi ke alur analis BI & TPID; audit model berkala; kesiapan sinyal Rupiah Digital." }
+    ]
+  },
+  "daftar_sumber": [
+    "Bank Indonesia. Siaran Pers No.28/238/DKom: Inflasi IHK Oktober 2026 Tetap Terjaga (2 November 2026). bi.go.id",
+    "Kabar Bursa (Oktober 2026). Inflasi IHK September 2026 dan prakiraan tekanan inflasi November 2026 dan Februari 2027.",
+    "Bisnis.com (2 November 2026). Penyebab inflasi Oktober 2026; Bisnis.com (12 Agustus 2026). Harga cabai meroket dan El Niño.",
+    "Jakarta Post (1 Oktober 2026). Inflasi September 2026.",
+    "Antara (1 Oktober 2026). Harga cabai rawit dan telur ayam (PIHPS Nasional).",
+    "Katadata (15 Oktober 2026). Mendag soal harga cabai; Databoks Katadata (1 Oktober 2026). Harga pangan SP2KP.",
+    "Kontan (12 Oktober 2026). Harga cabai rawit merah menurut Bapanas; iNews (Oktober 2026). Harga cabai rawit menurut Bapanas dan Kementan.",
+    "CNBC Indonesia (2 Februari 2026). Produksi beras 2025 menurut BPS; Goodstats (BPS). Provinsi penghasil beras 2025.",
+    "Pemerintah Kabupaten Bogor, Bina Jurnal. Data luas panen dan produksi padi 2023–2024 (BPS, 2025).",
+    "Esai Gen-School 2026 (tim penulis): BMKG (2024), Bank Indonesia (2024, 2026a, 2026b), Cevik dan Gwon (2024), IMF (2024), Abidi dkk. (2024), WMO (2024)."
+  ]
+}

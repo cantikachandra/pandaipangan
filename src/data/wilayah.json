@@ -1,0 +1,382 @@
+[
+  {
+    "provinsi_kode": "11",
+    "nama": "Aceh",
+    "pulau": "Sumatera",
+    "lat": 4.7,
+    "lon": 96.75,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "cabai_merah", "cabai_rawit"],
+    "catatan_wilayah": "Sentra padi dan cabai dataran tinggi Aceh Tengah/Bener Meriah."
+  },
+  {
+    "provinsi_kode": "12",
+    "nama": "Sumatera Utara",
+    "pulau": "Sumatera",
+    "lat": 2.19,
+    "lon": 99.38,
+    "peran": "sentra",
+    "sentra_komoditas": ["cabai_merah", "cabai_rawit", "bawang_merah", "telur_ayam_ras"],
+    "catatan_wilayah": "Sentra hortikultura Karo, Simalungun, dan Dairi; pemasok utama Sumatera."
+  },
+  {
+    "provinsi_kode": "13",
+    "nama": "Sumatera Barat",
+    "pulau": "Sumatera",
+    "lat": -0.74,
+    "lon": 100.8,
+    "peran": "sentra",
+    "sentra_komoditas": ["cabai_merah", "bawang_merah", "beras"],
+    "catatan_wilayah": "Sentra bawang merah Alahan Panjang dan cabai merah dataran tinggi."
+  },
+  {
+    "provinsi_kode": "14",
+    "nama": "Riau",
+    "pulau": "Sumatera",
+    "lat": 0.29,
+    "lon": 101.71,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah defisit hortikultura; bergantung pasokan Sumatera Barat, Sumut, dan Jawa."
+  },
+  {
+    "provinsi_kode": "15",
+    "nama": "Jambi",
+    "pulau": "Sumatera",
+    "lat": -1.61,
+    "lon": 103.61,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_merah"],
+    "catatan_wilayah": "Sentra lokal Kerinci, namun perkotaan Jambi bergantung arus pasokan lintas Sumatera."
+  },
+  {
+    "provinsi_kode": "16",
+    "nama": "Sumatera Selatan",
+    "pulau": "Sumatera",
+    "lat": -3.32,
+    "lon": 104.91,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "telur_ayam_ras"],
+    "catatan_wilayah": "Produsen beras terbesar kedua di luar Jawa (2,04 juta ton pada 2025, BPS)."
+  },
+  {
+    "provinsi_kode": "17",
+    "nama": "Bengkulu",
+    "pulau": "Sumatera",
+    "lat": -3.8,
+    "lon": 102.26,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_merah"],
+    "catatan_wilayah": "Pasokan hortikultura sebagian ditopang Rejang Lebong dan arus Sumatera Selatan."
+  },
+  {
+    "provinsi_kode": "18",
+    "nama": "Lampung",
+    "pulau": "Sumatera",
+    "lat": -4.56,
+    "lon": 105.41,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "cabai_merah", "telur_ayam_ras"],
+    "catatan_wilayah": "Produsen beras 1,82 juta ton (2025, BPS) dan pintu gerbang distribusi Jawa-Sumatera."
+  },
+  {
+    "provinsi_kode": "19",
+    "nama": "Kep. Bangka Belitung",
+    "pulau": "Sumatera",
+    "lat": -2.74,
+    "lon": 106.44,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah kepulauan konsumsi; sensitif terhadap gangguan pelayaran penyeberangan."
+  },
+  {
+    "provinsi_kode": "21",
+    "nama": "Kepulauan Riau",
+    "pulau": "Sumatera",
+    "lat": 3.95,
+    "lon": 108.14,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah konsumsi kepulauan dengan ketergantungan distribusi laut dari Jawa dan Sumatera."
+  },
+  {
+    "provinsi_kode": "31",
+    "nama": "DKI Jakarta",
+    "pulau": "Jawa",
+    "lat": -6.21,
+    "lon": 106.85,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Pusat konsumsi nasional & Pasar Induk Kramat Jati; barometer harga pangan."
+  },
+  {
+    "provinsi_kode": "32",
+    "nama": "Jawa Barat",
+    "pulau": "Jawa",
+    "lat": -6.92,
+    "lon": 107.64,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "cabai_merah", "cabai_rawit", "telur_ayam_ras"],
+    "catatan_wilayah": "Sentra cabai Garut/Ciamis/Bandung dan lumbung beras Karawang-Indramayu."
+  },
+  {
+    "provinsi_kode": "33",
+    "nama": "Jawa Tengah",
+    "pulau": "Jawa",
+    "lat": -7.15,
+    "lon": 110.14,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "bawang_merah", "cabai_merah", "cabai_rawit", "telur_ayam_ras"],
+    "catatan_wilayah": "Sentra bawang merah Brebes, cabai Magelang/Temanggung, dan pemasok lintas pulau."
+  },
+  {
+    "provinsi_kode": "34",
+    "nama": "DI Yogyakarta",
+    "pulau": "Jawa",
+    "lat": -7.88,
+    "lon": 110.43,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_merah", "bawang_merah"],
+    "catatan_wilayah": "Sentra cabai lahan pasir Kulon Progo/Bantul serta kawasan konsumsi perkotaan."
+  },
+  {
+    "provinsi_kode": "35",
+    "nama": "Jawa Timur",
+    "pulau": "Jawa",
+    "lat": -7.54,
+    "lon": 112.24,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "cabai_rawit", "cabai_merah", "bawang_merah", "telur_ayam_ras"],
+    "catatan_wilayah": "Produsen beras terbesar nasional (~6 juta ton 2025, BPS) dan sentra utama rawit serta telur Blitar."
+  },
+  {
+    "provinsi_kode": "36",
+    "nama": "Banten",
+    "pulau": "Jawa",
+    "lat": -6.41,
+    "lon": 106.06,
+    "peran": "campuran",
+    "sentra_komoditas": ["beras"],
+    "catatan_wilayah": "Produsen beras 1,01 juta ton (2025, BPS) sekaligus kawasan konsumsi aglomerasi Jabodetabek."
+  },
+  {
+    "provinsi_kode": "51",
+    "nama": "Bali",
+    "pulau": "Bali & Nusa Tenggara",
+    "lat": -8.34,
+    "lon": 115.09,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_rawit", "telur_ayam_ras"],
+    "catatan_wilayah": "Permintaan pariwisata tinggi; disuplai sentra lokal Bangli/Tabanan dan Jawa Timur."
+  },
+  {
+    "provinsi_kode": "52",
+    "nama": "Nusa Tenggara Barat",
+    "pulau": "Bali & Nusa Tenggara",
+    "lat": -8.65,
+    "lon": 117.36,
+    "peran": "sentra",
+    "sentra_komoditas": ["bawang_merah", "cabai_rawit", "beras"],
+    "catatan_wilayah": "Sentra bawang merah Bima dan cabai Lombok; rentan kekeringan saat El Niño."
+  },
+  {
+    "provinsi_kode": "53",
+    "nama": "Nusa Tenggara Timur",
+    "pulau": "Bali & Nusa Tenggara",
+    "lat": -8.66,
+    "lon": 121.08,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Zona kemarau terluas; bergantung pasokan laut dari Jawa Timur dan Sulawesi Selatan."
+  },
+  {
+    "provinsi_kode": "61",
+    "nama": "Kalimantan Barat",
+    "pulau": "Kalimantan",
+    "lat": -0.28,
+    "lon": 111.48,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah konsumsi yang dipasok dari Jawa Timur dan Jawa Tengah melalui pelabuhan Pontianak."
+  },
+  {
+    "provinsi_kode": "62",
+    "nama": "Kalimantan Tengah",
+    "pulau": "Kalimantan",
+    "lat": -1.68,
+    "lon": 113.38,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah konsumsi; sensitif terhadap keterlambatan angkutan laut dari Surabaya."
+  },
+  {
+    "provinsi_kode": "63",
+    "nama": "Kalimantan Selatan",
+    "pulau": "Kalimantan",
+    "lat": -3.09,
+    "lon": 115.28,
+    "peran": "campuran",
+    "sentra_komoditas": ["beras"],
+    "catatan_wilayah": "Penyangga beras Kalimantan, namun cabai dan bawang dipasok dari Jawa Timur."
+  },
+  {
+    "provinsi_kode": "64",
+    "nama": "Kalimantan Timur",
+    "pulau": "Kalimantan",
+    "lat": 0.54,
+    "lon": 116.42,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Permintaan ekonomi tinggi; bergantung pasokan dari Sulawesi Selatan dan Jawa Timur."
+  },
+  {
+    "provinsi_kode": "65",
+    "nama": "Kalimantan Utara",
+    "pulau": "Kalimantan",
+    "lat": 3.07,
+    "lon": 116.04,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah perbatasan dengan rantai distribusi panjang dari Sulawesi dan Jawa."
+  },
+  {
+    "provinsi_kode": "71",
+    "nama": "Sulawesi Utara",
+    "pulau": "Sulawesi",
+    "lat": 0.62,
+    "lon": 123.98,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_rawit"],
+    "catatan_wilayah": "Sentra cabai Minahasa sekaligus konsumen utama di kawasan Indonesia timur bagian utara."
+  },
+  {
+    "provinsi_kode": "72",
+    "nama": "Sulawesi Tengah",
+    "pulau": "Sulawesi",
+    "lat": -1.43,
+    "lon": 121.45,
+    "peran": "campuran",
+    "sentra_komoditas": ["bawang_merah", "beras"],
+    "catatan_wilayah": "Sentra bawang merah lembah Palu dan beras Parigi Moutong."
+  },
+  {
+    "provinsi_kode": "73",
+    "nama": "Sulawesi Selatan",
+    "pulau": "Sulawesi",
+    "lat": -3.67,
+    "lon": 119.97,
+    "peran": "sentra",
+    "sentra_komoditas": ["beras", "cabai_rawit", "bawang_merah", "telur_ayam_ras"],
+    "catatan_wilayah": "Lumbung pangan utama Kawasan Timur Indonesia; terdampak kondisi lebih kering Agu-Okt 2026."
+  },
+  {
+    "provinsi_kode": "74",
+    "nama": "Sulawesi Tenggara",
+    "pulau": "Sulawesi",
+    "lat": -4.14,
+    "lon": 122.17,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Dipasok dari sentra Sulawesi Selatan dan Jawa Timur."
+  },
+  {
+    "provinsi_kode": "75",
+    "nama": "Gorontalo",
+    "pulau": "Sulawesi",
+    "lat": 0.7,
+    "lon": 122.45,
+    "peran": "campuran",
+    "sentra_komoditas": ["cabai_rawit"],
+    "catatan_wilayah": "Sentra cabai rawit lokal, namun pasokan bawang dan telur sebagian dari Sulawesi Selatan."
+  },
+  {
+    "provinsi_kode": "76",
+    "nama": "Sulawesi Barat",
+    "pulau": "Sulawesi",
+    "lat": -2.84,
+    "lon": 119.23,
+    "peran": "campuran",
+    "sentra_komoditas": ["beras"],
+    "catatan_wilayah": "Wilayah penyangga pertanian Polewali Mandar yang terhubung koridor Sulsel."
+  },
+  {
+    "provinsi_kode": "81",
+    "nama": "Maluku",
+    "pulau": "Maluku",
+    "lat": -3.24,
+    "lon": 130.15,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah kepulauan dengan biaya logistik laut tinggi dari Surabaya dan Makassar."
+  },
+  {
+    "provinsi_kode": "82",
+    "nama": "Maluku Utara",
+    "pulau": "Maluku",
+    "lat": 1.57,
+    "lon": 127.81,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah pertumbuhan ekonomi tinggi; pasokan pangan sangat dipengaruhi jalur laut Bitung-Surabaya."
+  },
+  {
+    "provinsi_kode": "91",
+    "nama": "Papua",
+    "pulau": "Papua",
+    "lat": -4.27,
+    "lon": 138.08,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Pusat distribusi Jayapura; bergantung angkutan tol laut dari Jawa Timur dan Sulawesi Selatan."
+  },
+  {
+    "provinsi_kode": "92",
+    "nama": "Papua Barat",
+    "pulau": "Papua",
+    "lat": -1.34,
+    "lon": 133.17,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah konsumsi Manokwari dengan sensitivitas tinggi pada ongkos angkut laut."
+  },
+  {
+    "provinsi_kode": "93",
+    "nama": "Papua Barat Daya",
+    "pulau": "Papua",
+    "lat": -1.1,
+    "lon": 131.5,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Simpul pelabuhan Sorong yang menerima pasokan pangan dari Sulawesi Selatan dan Jawa Timur."
+  },
+  {
+    "provinsi_kode": "94",
+    "nama": "Papua Tengah",
+    "pulau": "Papua",
+    "lat": -3.95,
+    "lon": 136.2,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Wilayah dengan tantangan distribusi udara/darat dari pelabuhan Timika."
+  },
+  {
+    "provinsi_kode": "95",
+    "nama": "Papua Pegunungan",
+    "pulau": "Papua",
+    "lat": -4.1,
+    "lon": 139.2,
+    "peran": "konsumsi",
+    "sentra_komoditas": [],
+    "catatan_wilayah": "Ketergantungan distribusi kargo udara memicu disparitas harga pangan sangat tinggi."
+  },
+  {
+    "provinsi_kode": "96",
+    "nama": "Papua Selatan",
+    "pulau": "Papua",
+    "lat": -7.5,
+    "lon": 139.5,
+    "peran": "campuran",
+    "sentra_komoditas": ["beras"],
+    "catatan_wilayah": "Sentra pengembangan lumbung padi Merauke, namun hortikultura masih dipasok luar daerah."
+  }
+]
